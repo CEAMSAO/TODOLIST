@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="contenedor shadow">
+    
+    <nav class="nav">
+      <h1>to do list</h1>
+    </nav>
+
+      <div class="formulario">
+
+              <form id="form">
+                <div class="campo-contenido">
+        
+                  <fieldset>
+        
+                    <div class="campo">
+                      <input class="input" type="text" id="titulo" placeholder="Agregar Tarea" class="form-control">
+                    </div>
+                    <div class="campo">
+                      <input class="input" id="fecha" name="fecha" type="date" placeholder="Fecha">
+                      
+                    </div>
+                  </fieldset>
+                  <button type="submit" class="btn">Save</button>
+                </div>
+              </form>
+            
+        
+        <div class="listas">
+          <h1>Tareas</h1>
+          <div id="tareas"></div>
+        </div>
+      </div>
+
+      
+    </div>
+    <script src="src/app.js"></script>
+    <footer class="footer">
+      <p>Todos los derechos reservados a KESO.</p>
+  </footer>
+  </body>
+</html>
